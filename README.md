@@ -1,6 +1,6 @@
 # Chaos-Resilient Pre-Deployment Simulator
 
-> An end-to-end chaos simulation platform that validates microservice resilience **before** code ships to production — automated inside CI/CD, with full observability.
+> An end-to-end chaos simulation platform that validates microservice resilience **before** code ships to production automated inside CI/CD, with full observability.
 
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![Chaos](https://img.shields.io/badge/Chaos-Engineering-FF4F00?style=flat-square)](https://principlesofchaos.org/)
@@ -12,9 +12,9 @@
 
 ## 📌 Problem Statement
 
-Most teams discover resilience failures **in production** — after a deployment has already caused an outage. Traditional pre-deployment testing validates functionality, not failure recovery.
+Most teams discover resilience failures **in production** after a deployment has already caused an outage. Traditional pre-deployment testing validates functionality, not failure recovery.
 
-This platform shifts resilience validation **left** — injecting real-world failure conditions (network delays, service crashes, CPU spikes, database failures) into a production-like environment *before* code is ever deployed. If the system can't recover under chaos, it doesn't ship.
+This platform shifts resilience validation **left** injecting real-world failure conditions (network delays, service crashes, CPU spikes, database failures) into a production-like environment *before* code is ever deployed. If the system can't recover under chaos, it doesn't ship.
 
 ---
 
@@ -384,7 +384,7 @@ Each CI run generates a report in `/reports` capturing:
 
 ## 💡 Why This Matters
 
-Chaos engineering is standard practice at Netflix, Amazon, and Google — but rarely adopted at the pre-deployment stage. This project demonstrates:
+Chaos engineering is standard practice at Netflix, Amazon, and Google but rarely adopted at the pre-deployment stage. This project demonstrates:
 
 - **Shift-left resilience** — finding failure modes before they reach production
 - **Automated quality gates** — chaos results block or allow deployment, not a human decision
