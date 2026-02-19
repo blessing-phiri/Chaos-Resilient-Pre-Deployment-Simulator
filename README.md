@@ -153,27 +153,27 @@ Pre-Deployment-Chaos-Testing-System/
 
 ### Docker Compose - All Services Running
 <!-- Replace with your actual screenshot -->
-![Docker Compose](screenshots/docker.png)
+![Docker Compose](docs/docker.png)
 
 ### Chaos Pipeline - All Scenarios Passed
 <!-- Replace with your actual screenshot -->
-![Pipeline Success](screenshots/success.png)
+![Pipeline Success](docs/success.png)
 
 ### Service A - API Orchestrator
 <!-- Replace with your actual screenshot -->
-![Service A](screenshots/service-a.png)
+![Service A](docs/service-a.png)
 
 ### Service B - Worker Layer
 <!-- Replace with your actual screenshot -->
-![Service B](screenshots/service-b.png)
+![Service B](docs/service-b.png)
 
 ### Prometheus - Metrics During Chaos Injection
 <!-- Replace with your actual screenshot -->
-![Prometheus](screenshots/prometheus.png)
+![Prometheus](docs/prometheus.png)
 
 ### Grafana - Recovery Dashboard
 <!-- Replace with your actual screenshot -->
-![Grafana](screenshots/grafana.png)
+![Grafana](docs/grafana.png)
 
 ---
 
