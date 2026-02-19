@@ -149,6 +149,34 @@ Pre-Deployment-Chaos-Testing-System/
 
 ---
 
+## 📸 Screenshots
+
+### Docker Compose - All Services Running
+<!-- Replace with your actual screenshot -->
+![Docker Compose](screenshots/docker.png)
+
+### Chaos Pipeline - All Scenarios Passed
+<!-- Replace with your actual screenshot -->
+![Pipeline Success](screenshots/success.png)
+
+### Service A - API Orchestrator
+<!-- Replace with your actual screenshot -->
+![Service A](screenshots/service-a.png)
+
+### Service B - Worker Layer
+<!-- Replace with your actual screenshot -->
+![Service B](screenshots/service-b.png)
+
+### Prometheus - Metrics During Chaos Injection
+<!-- Replace with your actual screenshot -->
+![Prometheus](screenshots/prometheus.png)
+
+### Grafana - Recovery Dashboard
+<!-- Replace with your actual screenshot -->
+![Grafana](screenshots/grafana.png)
+
+---
+
 ## 🚀 How It Works
 
 ### CI/CD Chaos Gate
@@ -384,7 +412,7 @@ Each CI run generates a report in `/reports` capturing:
 
 ## 💡 Why This Matters
 
-Chaos engineering is standard practice at Netflix, Amazon, and Google but rarely adopted at the pre-deployment stage. This project demonstrates:
+Chaos engineering is standard practice at Netflix, Amazon, and Google — but rarely adopted at the pre-deployment stage. This project demonstrates:
 
 - **Shift-left resilience** — finding failure modes before they reach production
 - **Automated quality gates** — chaos results block or allow deployment, not a human decision
